@@ -12,9 +12,17 @@ The application does not have some common features, such as loading or error fee
 
 ## Instaling the application
 
-- clone the project with git: `git clone https://github.com/marioteik/githubapi-test.git`
-- enter the project's folder with `cd githubapi-test`
-- execute `npm install` to install dependencies
+- clone the project with git: `git clone https://github.com/marioteik/githubapi-test.git`.
+- enter the project's folder with `cd githubapi-test`.
+- execute `npm install` to install dependencies.
+
+## Authorizating GitHub API
+
+- go to [Personal access tokens](https://github.com/settings/tokens) at GitHub.
+- click in `Generate new token`.
+- select `public repositories` option and run generate.
+- go to the project's folder, in the file `.env.development` add the generated token after `REACT_APP_GITHUB_TOKEN=`.
+- run the application.
 
 ## Running the project
 
