@@ -20,7 +20,7 @@ The application does not have some common features, such as loading or error fee
 
 - go to [Personal access tokens](https://github.com/settings/tokens) at GitHub.
 - click in `Generate new token`.
-- select `public repositories` option and run generate.
+- select `public repositories` option, git a name to the token and click to generate.
 - go to the project's folder, in the file `.env.development` add the generated token after `REACT_APP_GITHUB_TOKEN=`.
 - run the application.
 
