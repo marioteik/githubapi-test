@@ -12,8 +12,9 @@ The application does not have some common features, such as loading or error fee
 
 ## Instaling the application
 
-- clone the project with git: `git clone http://...`
-- execute `npm install` inside the project's root folder 
+- clone the project with git: `git clone https://github.com/marioteik/githubapi-test.git`
+- enter the project's folder with `cd githubapi-test`
+- execute `npm install` to install dependencies
 
 ## Running the project
 
